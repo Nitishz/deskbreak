@@ -95,13 +95,3 @@ and when an alert is due it fires once, waits up to 30s for your
 an alert, on wake it fires a single alert rather than a backlog burst.
 
 `state.json` and `daemon.log` live in the repo folder and are git-ignored.
-
-## Testing
-
-```bash
-python3 -m pip install pytest
-pytest
-```
-
-See the end of the build walkthrough for how to run a fast 1–2 minute cycle to
-watch escalation fire live.
